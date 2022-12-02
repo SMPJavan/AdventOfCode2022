@@ -62,13 +62,17 @@ func calculateSelectionForResult(opponent string, result string) string {
 func calculatePointsForResult(opponent string, mine string) int {
 	points := 0
 
-	if opponent == mine {
+	if isDraw(opponent, mine) {
 		points = 3
 	} else if isVictory(opponent, mine) {
 		points = 6
 	}
 
 	return points
+}
+
+func isDraw(opponent string, mine string) bool {
+	return opponent == mine
 }
 
 func isVictory(opponent string, mine string) bool {
