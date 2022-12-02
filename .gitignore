@@ -13,3 +13,11 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/AdventOfCode2022.iml
+/AdventOfCode2022.iml
+/.idea/aws.xml
+/day1/day1.iml
+/day2/day1.iml
