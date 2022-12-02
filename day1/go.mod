@@ -1,1 +1,1 @@
-module Advent-2022
+module Advent-2022-day1
